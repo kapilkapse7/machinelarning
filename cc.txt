@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+open git bash
+select folder n open in git bash
+git version
+git config --global user.name
+git config --global user.email
+git init
+git add file_name
+git status
+git commit -m "adding file_name"
+git log
+open github
+login new resp n copy second file
+n paste in git bash
+login
+
+
+
+
+
+
+docker version
+mkdir hello-docker #file name
+cd hello-docker
+code .
+create file in vs app.js n Dockerfile
+app.js-console.log("Hello World")
+doc-FROM node:alphine
+COPY . /app
+WORKDIR /app
+CMD node app.js
+docker built -t hello docker
+docker img ls
+node app.js
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Mobile Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+  <div data-role="page" date-theme="c">
+    <div data-role="header">
+      <h1>JQUERY MOBILE WEBPAGE</h1>
+    </div>
+    <div data-role="content">
+      <p>COVID-19 Work-From-Home Team Management Mistakes To Avoid</p>
+    </div>
+    <p>
+    <ul data-role="listview" data-inset="true" data-filter="true"></ul>
+    </p>
+    <p>
+    <ul>
+      <li><a href="#">Using Unnecessary Tools</a></li>
+      <li><a href="#">Foregoing Team Evaluations</a></li>
+      <li><a href="#">Micromanaging</a></li>
+      <li><a href="#">Hiring Too Quickly</a></li>
+      <li><a href="#">Not Having Contingencies</a></li>
+    </ul>
+    </p>
+    <div data-role="footer">
+      <h4>2022 - Copyright</h4>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+const express = require('express');
+const app = express();
+app.use(express.static('public/'));
+app.listen(8080, function(){
+    console.log('Server listening at 8080');
+})
+
+
+app.js
+public
+index.html
+npm install express
+node app.js
+
+
+
+
+
